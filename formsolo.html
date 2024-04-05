@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    
+    <form method="post" action="valida-form.html">
+        <label>nome</label>
+        
+        <input type="text" name="nome" placeholder="" required>
+        <hr>
+        <label>sobre-nome</label>
+        <input type="text" name="nome" placeholder="" required>
+        <hr>
+        <label>endereço</label>
+        <input type="text" name="endereco" placeholder="" required>
+        <hr>
+        <label>numero de telefone</label>
+        <input type="text" name="numero de telefone" placeholder="">
+        <hr>
+        <label>complemento</label>
+        <input type="text" name="complemento" placeholder="" required>
+        <hr>
+        <label>bairro</label>
+        <input type="text" name="bairro" placeholder="" required>
+        <hr>
+        <label>selecione uma cidade</label>
+        <input type="text" name="cidade" placeholder="" required>
+        <hr>
+        <label>Cep</label>
+        <input type="text" name="cep" placeholder=""required>
+        <hr>
+        <label>Uf</label>
+        <select name="Uf" required>
+            <option value="Acre">AC</option>
+            <option value="Alagoas">Al</option>
+            <option value="Amapá">AP</option>
+            <option value="Amazonas">AM</option>
+            <option value="Bahia">BA</option>
+            <option value="Ceará">CE</option>
+            <option value="Espírito Santo">ES</option>
+            <option value="Goiás">GO</option>
+            <option value="Maranhão">MA</option>
+            <option value="Mato Grosso">MT</option>
+            <option value="Mato Grosso do Sul">MS</option>
+            <option value="Minas Gerais">MG</option>
+            <option value="Pará">PA</option>
+            <option value="Paraíba">PB</option>
+            <option value="Paraná">PR</option>
+            <option value="Pernambuco">PE</option>
+            <option value="Piauí">PI</option>
+            <option value="Rio de Janeiro">RJ</option>
+            <option value="Rio Grande do Norte">RN</option>
+            <option value="Rio Grande do Sul">RS</option>
+            <option value="Rondônia">RO</option>
+            <option value="Roraima">RR</option>
+            <option value="Santa Catarina">SC</option>
+            <option value="São Paulo" selected>SP</option>
+            <option value="Sergipe">SE</option>
+            <option value="Tocantins">TO</option>
+        </select>
+        <hr>
+        <label>data de nacimento</label>
+        <input type="date" name="dt_nasc">
+        <hr>
+        <label> Registro geral (RG)</label>
+        <input type="text" name="RG" placeholder="">
+        <hr>
+        <label> Cadastro de Pessoa Física (CPF)</label>
+        <input type="text" name="CPF" placeholder="">
+        <hr>
+        <label>Nome da Mãe</label>
+        <input type="text" name="nome da mae" placeholder="">
+        <br>
+        <label>Nome da Pai</label>
+        <input type="text" name="nome da Pai" placeholder="">
+        <br>
+        <hr>
+        <label>Gênero</label>
+        <select name="gênero">
+            <option value="selecione"selected>- Selecione -</option>
+            <option value="masc">Masculino</option>
+            <option value="femi">Feminino</option>
+            <option value="Transg">Transgênero</option>
+            <option value="geneneu">Gênero Neutro</option>
+            <option value="naobi">Não Binário</option>
+            <option value="agenero">Agênero</option>
+            <option value="pange">Pangênero</option>
+            <option value="gender">Genderqueer</option>
+            <option value="Two">two-Spirit</option>
+            <option value="prefiro">Prefiro Não dizer</option>
+        </select>
+        <hr>
+        <label>Avaliação</label>
+        pouco satisfeito
+        <input type="number" name="satisfacao" min="0" max="5">
+        muito satisfeito
+        <hr>
+        <label>Grau de escolaridade:</label><br>
+        <input type="radio" name="escolaridade" value="ensino_fundamental"><label>Ensino Fundamental</label><br>
+        <input type="radio" name="escolaridade" value="ensino_medio"><label>Ensino Médio</label><br>
+        <input type="radio" name="escolaridade" value="graduacao"><label>Graduação</label><br>
+        <input type="radio" name="escolaridade" value="bacharelado"><label>Bacharelado</label><br>
+        <hr>
+        <input type="reset" value="limpar">
+        <input type="submit" name="envio-form" value="enviar ja!!!">
+    </form>
+</body>
+</html>
